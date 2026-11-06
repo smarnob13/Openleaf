@@ -1,0 +1,17 @@
+{
+  "name": "openleaf-studio",
+  "version": "1.0.0",
+  "description": "Free Unlimited Overleaf-Inspired LaTeX IDE & Compiler (Frontend + Serverless/Docker TeX Live Backend)",
+  "type": "module",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "node server/index.js"
+  },
+  "dependencies": {
+    "express": "^4.21.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "license": "MIT"
+}
